@@ -1,0 +1,7 @@
+[package]
+name = "largest_prime_factor"
+version = "0.1.0"
+authors = ["Bryce Van Dyk <bryce.vandyk@orionhealth.com>"]
+
+[dependencies]
+bit-vec = "0.4.2"
