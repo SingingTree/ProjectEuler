@@ -1,3 +1,7 @@
-Messing about and programming language practice on Project Euler problems.
+Attempts and solutions to Project Euler solutions, typically in rust.
 
-Only easier problems, as Project Euler doesn't like the idea of people finding the answers online.
+Solutions source files are encrypted using OpenSSL aes256, with the answer to the solution used as the password to generate keys. So they can be decrypted as follows:
+
+`openssl aes256 -d -in <file_name>`
+
+after which you'll be prompted for a password, at which point you can use the answer to that solution to decrypt.

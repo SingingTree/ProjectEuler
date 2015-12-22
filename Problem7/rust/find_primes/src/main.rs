@@ -1,28 +1,4 @@
-fn find_primes(num_primes : usize) -> Vec<usize> {
-    // Sieve of Eratosthenes style approach
-    let mut primes = Vec::new();
-    if num_primes == 0 {
-        return primes;
-    }
-    primes.push(2);
-
-    let mut i = 3;
-    while primes.len() < num_primes {
-        let mut is_prime = true;
-        for prime in primes.iter() {
-            if i % prime == 0 {
-                is_prime = false;
-                break;
-            }
-        }
-        if is_prime {
-            primes.push(i);
-        }
-        i += 1;
-    }
-    primes
-}
-
-fn main() {
-    println!("{}", find_primes(10001).pop().unwrap());
-}
+Salted__=«ÆSåm7ˆÀ„‡Néñxhc#«{ŒÎö‰¦ƒ_n9¿›<¿‹iÆ—s–Ö°ªö:§êòìH†”{¨HU´µßğ¼Œ YÈR“²ÅUHÜœP9µ‡°Î5½¿ëdÙà»ósŠW­K‹§ÅËÁÚ/b`§ò®€ê™ş±'§4Ænª¼d·.!.î&: È]™<¹zDæõlfİôÂ†Ëßìİòß-yiL6f’ˆÈ>CRL/%*Pª~Ø÷	Îƒ”à	ê¤OH|ğQ-©Ü€Cò„ÅfãçuRßıÊmÚ&;“O§CBÀúf%éçÙkr`L$)f>9Æf¾•Œ2Y	ˆI†vA©GêBŠÛM·æš”`Ú£vkÏÏ“˜PC§Ø1HçeÈª‹vÈ‡úrÛâø­õ£° ö=óù%t;¹—%ˆY(­ÒÕ„Å_+Ìég¤
+…]Ù'MƒŠ ¶¥öH£~’d©Ô:šç]Ç~tUÑŠÁ	7ñ´¿2÷
+0ŒD·bİHofkªœ>ÎTÍët¶ÈEú>­¥½Õ¯İ*"!ŠûÃ/F’şÈ'šÄ6ºhó•gúÆ_Ÿöİó:FŠî–Â:a{vŸ6&_
+mŸëeæ¸ò1§Goşl¿GZô=ñ5óÎiŞ-ÚY­Ä³W³}DëŠ0·¹qMâ±Êí#¼<êÕ;'[ºÜs¢6œ[cÚÖ¾‹ºmÇî¨Å`Vvv>ÕI‡}ú-Ó$É!@ºÊâà2Bˆ`ûå¥³Æ‡¥†¶ö*\>ğ6²ÁzÉl.ÓÃ®¥â`Q>¦`¶GÚéb8²ªÄp
