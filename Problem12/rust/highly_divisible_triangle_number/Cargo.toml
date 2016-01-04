@@ -1,0 +1,4 @@
+[package]
+name = "highly_divisible_triangle_number"
+version = "0.1.0"
+authors = ["Bryce Van Dyk <bryce@vandyk.net.nz>"]
